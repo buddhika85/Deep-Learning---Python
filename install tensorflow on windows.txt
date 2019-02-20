@@ -1,0 +1,28 @@
+https://www.saintlad.com/install-tensorflow-on-windows/
+
+
+Step 1:  Head over to Python 3.5.x from python.org
+
+ 
+
+Step 2:  Go to the Downloads page and Select the 3.5.2 download.
+
+Step 3:  After that you will be brought to another page, where you will need to select either the x86-64 or amd64 installer.
+
+The one I specifically recommend for now is the Windows x86-64 executable installer.
+
+ 
+
+Step 4:  For the purpose of this article I’ll be choosing to Add Python 3.5 to PATH.
+
+ 
+
+Step 5:  Now you should be able to see a message saying Setup was successful. A way to confirm that it has installed successfully is to open your Command Prompt and check the version.
+
+
+
+
+Open up the Start menu, search for cmd and then right click on it and Run as an administrator.
+
+Just enter this command:
+C:\> pip3 install --upgrade tensorflow
